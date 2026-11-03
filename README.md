@@ -97,12 +97,17 @@ The project uses a web application connected to a Supabase PostgreSQL database.
 
 ## 6. Database Design
 
-## Database Entity Relationship Diagram
+### Database Entity Relationship Diagram
 
-The following diagram represents the physical database
-structure of BanquetBook.
+The following diagram illustrates the physical database structure of BanquetBook, including its entities, attributes, data types, primary keys, foreign keys, and relationships.
 
-![BanquetBook Database ERD](docs/erd/BanquetBook_ERD.png)
+![BanquetBook Physical Database ERD](docs/erd/BanquetBook_ERD.png)
+
+*Figure: BanquetBook Physical Database Entity Relationship Diagram — banquet_v2 schema.*
+
+The active database schema audited for this project contains **19 tables** and is designed to organize customer data, bookings, room reservations, packages, and operational requirements.
+
+
 ## Database Entity Relationship Diagram
 
 The following diagram illustrates the physical database structure of BanquetBook, including its entities, attributes, primary keys, foreign keys, and relationships.
